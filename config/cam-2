@@ -1,0 +1,23 @@
+[grab]
+  device = /dev/video1
+  driver = libv4l
+  text = CAM2 - %d/%m/%y %H:%M:%S
+  fg_red = 255
+  fg_green = 255
+  fg_blue = 255
+  width = 640
+  height = 480
+  delay = 0
+  wait = 0
+  rotate = 0
+  quality = 100
+  trigger = 0
+  once = 1
+[ftp]
+  local = 1
+  dir  = /home/rey/boomcam/photos
+  file = cam-2.jpg
+  tmp  = cam-2-tmp.jpg
+  passive = 1
+  debug = 0
+  auto = 0
