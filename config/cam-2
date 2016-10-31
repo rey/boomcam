@@ -15,7 +15,7 @@
   once = 1
 [ftp]
   local = 1
-  dir  = /home/rey/boomcam/photos
+  dir  = /home/rey/cambola/photos
   file = cam-2.jpg
   tmp  = cam-2-tmp.jpg
   passive = 1
